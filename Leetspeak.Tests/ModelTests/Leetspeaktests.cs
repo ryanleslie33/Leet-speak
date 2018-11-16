@@ -34,7 +34,13 @@ namespace Leetspeakname.Test
     public void Replace_inputaletterandreturnnumber5_True()
     {
       Leet testLeetSpeak = new Leet();
-      Assert.AreEqual("z", testLeetSpeak.PlayGame("s"));
+      Assert.AreEqual("s3", testLeetSpeak.PlayGame("se"));
+    }
+    [TestMethod]
+    public void Replace_inputaletterandreturnnumber8_True()
+    {
+      Leet testLeetSpeak = new Leet();
+      Assert.AreEqual("3z", testLeetSpeak.PlayGame("es"));
     }
   }
 }

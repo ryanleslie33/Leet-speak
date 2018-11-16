@@ -5,3 +5,10 @@
 /Users/Guest/Desktop/Leetspeak.solution/Leetspeak/obj/Debug/netcoreapp1.1/Leetspeak.AssemblyInfo.cs
 /Users/Guest/Desktop/Leetspeak.solution/Leetspeak/obj/Debug/netcoreapp1.1/Leetspeak.dll
 /Users/Guest/Desktop/Leetspeak.solution/Leetspeak/obj/Debug/netcoreapp1.1/Leetspeak.pdb
+C:\Users\ryan leslie\Desktop\Leet-speak\Leetspeak\bin\Debug\netcoreapp1.1\Leetspeak.deps.json
+C:\Users\ryan leslie\Desktop\Leet-speak\Leetspeak\obj\Debug\netcoreapp1.1\Leetspeak.csproj.CoreCompileInputs.cache
+C:\Users\ryan leslie\Desktop\Leet-speak\Leetspeak\obj\Debug\netcoreapp1.1\Leetspeak.AssemblyInfo.cs
+C:\Users\ryan leslie\Desktop\Leet-speak\Leetspeak\obj\Debug\netcoreapp1.1\Leetspeak.dll
+C:\Users\ryan leslie\Desktop\Leet-speak\Leetspeak\obj\Debug\netcoreapp1.1\Leetspeak.pdb
+C:\Users\ryan leslie\Desktop\Leet-speak\Leetspeak\bin\Debug\netcoreapp1.1\Leetspeak.dll
+C:\Users\ryan leslie\Desktop\Leet-speak\Leetspeak\bin\Debug\netcoreapp1.1\Leetspeak.pdb

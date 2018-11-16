@@ -12,10 +12,9 @@ namespace Leetspeakname
         Console.WriteLine("Please enter a word.");
 
         string input = Console.ReadLine();
-        var charArray = input.ToCharArray();
 
         Leet inputWord = new Leet();
-        string returnedString = inputWord.PlayGame(charArray);
+        string returnedString = inputWord.PlayGame(input);
         Console.WriteLine(returnedString);
       }
 

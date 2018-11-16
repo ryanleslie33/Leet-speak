@@ -5,31 +5,50 @@ namespace Leetspeakname
 {
   public class Leet
   {
-    public string PlayGame(index)
+    public string PlayGame(string index)
     {
-      if (index == "e")
+      var arr = index.ToCharArray();
+      List<char> result = new List<char>();
+      int current = 0;
+      for(var i = 0; i < arr.Length; ++i)
       {
-        return "3";
+        char c = arr[i];
+        result.Add(PlayGame(c, current));
+        if (c == ' ') {
+          current = 0;;
+        }
+        else {
+          current++;
+        }
       }
-      else if (index == "o")
+      return string.Join("", result);
+    }
+    public char PlayGame(char letter, int index)
+    {
+
+      if (letter == 'e')
       {
-        return "0";
+        return '3';
       }
-      else if (index == "I")
+      else if (letter == 'o')
       {
-        return "1";
+        return '0';
       }
-      else if (index == "t")
+      else if (letter == 'I')
       {
-        return "7";
+        return '1';
       }
-      else if ( index == "s")
+      else if (letter == 't')
       {
-        return "z";
+        return '7';
+      }
+      else if ( letter == 's' && index != 0)
+      {
+        return 'z';
       }
       else
       {
-        return "15";
+        return letter;
       }
     }
   }
